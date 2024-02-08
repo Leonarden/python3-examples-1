@@ -106,7 +106,7 @@ class Executor():
                     'Avoid repetitions'
                     self.collection.append(sc)
                     i = i + 1
-                else:
+                elif (not to_set):
                     'Normal insertion'
                     self.collection.append(sc)
                     i = i + 1
